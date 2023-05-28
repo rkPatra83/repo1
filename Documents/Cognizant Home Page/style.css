@@ -1,0 +1,325 @@
+/* body{
+    background: url(Images/bckImg1.webp);
+    position: sticky;
+    top: 35rem;
+    z-index: -1;
+} */
+
+/* header part */
+.cog-header {
+    background-color: #e8e8e6;
+    line-height: 2;
+    padding-right: 80px;
+}
+
+
+.header-link {
+    color: #000049;
+    padding: 4px 10px 4px 10px;
+
+}
+
+.header-link:hover {
+    color: #2f78c4;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* navbar part */
+.cog-navbar {
+    padding-right: 85px;
+    background-color: #fff;
+}
+
+.logo img {
+    margin: 20px 10px 20px 5px;
+    height: 45px;
+    width: 250px;
+}
+
+.logo span {
+    padding: 5px;
+    font-size: 20px;
+    color: #53565a;
+}
+
+.nav-link {
+    color: #000049;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background-color: #000049;
+    color: #ffffff;
+
+}
+
+/* carousel part */
+
+
+/* fragament parts */
+.fragment1 {
+    background-color: #2f78c4;
+    color: #ffffff;
+}
+
+.small {
+    font-size: .75rem;
+}
+
+.fragment2 {
+    color: #2f78c4;
+    padding: 65px;
+    background-color: #fff;
+}
+
+.fragment2 h4 {
+    font-size: 2.2rem;
+}
+
+.text-link {
+    color: #2f78c4;
+    font-weight: bold;
+}
+
+.text-link:hover {
+    color: #000049;
+}
+
+/* 'Building with data' card */
+.fragment-card{
+    background: url(Images/bckImg1.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fragment3{
+    padding: 5.5rem 0.6rem;
+}
+.video-card{
+    padding: 2.6rem 4rem 1rem 2rem;
+    width: 31.4rem;
+    height: 18.6rem;
+    background: #000048;
+    opacity: 0.9;
+}
+.text-link2 {
+    color: #26efe9;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.video-card span{
+    font-size: 1.2rem;
+    color: #26efe9;
+    font-weight: bold;
+}
+
+/* cognizant in india section */
+.wrapper1{
+    background: radial-gradient(at 18% 95%,#030060 0,rgba(3,0,96,.001) 80%),radial-gradient(at 85% 81%,#0ff 0,rgba(0,255,255,.001) 80%),radial-gradient(at 60% 99%,#3afded 10%,rgba(58,253,237,.001) 50%),radial-gradient(at 35% 15%,#fbf9e8 0,hsla(54,70%,95%,.75) 10%,hsla(54,70%,95%,.001) 20%),radial-gradient(at 39% 25%,#fcf7e7 0,hsla(46,78%,95%,.75) 30%,hsla(46,78%,95%,.001) 60%),radial-gradient(at 2% 2%,#f6d6d8 0,rgba(246,214,216,.001) 55%),radial-gradient(at 0 98%,#250075 0,rgba(37,0,117,.001) 85%),radial-gradient(at 98% 3%,#0037ad 0,rgba(0,55,173,.001) 85%),radial-gradient(at 76% 2%,#0270bb 10%,rgba(2,112,187,.001) 60%);
+    color: #ffffff;
+}
+.wrapper1-heading{
+    padding-top: 3.6rem;
+    padding-bottom: 1.8rem;
+}
+.wrapper1-heading h1{
+    font-size: 3rem;
+}
+.wrapper1-heading p{
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+}
+
+/* card 1 */
+.card-1 {
+    background: url(Images/card1.jpg);
+    filter: contrast(95%);
+    height: 325px;
+    width: 555px;
+}
+.card-1-text {
+    position: relative;
+    top: 11rem;
+    background-color: #000048;
+    opacity: 0.8;
+    color: #fff;
+    padding: 1.9rem;
+}
+.card-1-text p{
+    width: 20%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid white;
+}
+
+/* card 2 */
+.card-2 {
+    background: url(Images/card2.jpg);
+    filter: contrast(95%);
+    height: 325px;
+    width: 570px;
+}
+.card-2-text {
+    position: relative;
+    top: 11rem;
+    background-color: #000048;
+    opacity: 0.8;
+    color: #fff;
+    padding: 1.9rem;
+}
+.card-2-text p{
+    width: 20%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid white;
+}
+
+/* card 3 */
+.card-3 {
+    background: url(Images/card3.webp);
+    filter: contrast(95%);
+    height: 325px;
+    width: 555px;
+}
+.card-3-text {
+    position: relative;
+    top: 11rem;
+    background-color: #000048;
+    opacity: 0.8;
+    color: #fff;
+    padding: 1.9rem;
+}
+.card-3-text p{
+    width: 20%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid white;
+}
+/* card 4 */
+.card-4 {
+    background: url(Images/card4.webp);
+    filter: contrast(95%);
+    height: 325px;
+    width: 555px;
+    margin-bottom: 3rem;
+}
+.card-4-text {
+    position: relative;
+    top: 11rem;
+    background-color: #000048;
+    opacity: 0.8;
+    color: #fff;
+    padding: 1.9rem;
+}
+.card-4-text p{
+    width: 20%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid white;
+}
+
+
+/* Services Section */
+.wrapper2{
+   background: url(Images/bckImg2.jpg); 
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   color: #fff;
+}
+.wrapper2-content{
+    padding-bottom: 3rem;
+}
+.wrapper2-heading{
+    padding-top: 4rem;
+}
+.wrapper2-heading span{
+    width: 16%;
+    border-bottom: 2px solid #fff;
+}
+.services-h{
+    padding: 3rem 0rem;
+}
+
+.first-row{
+    background-color: #000048;
+    /* padding: 4rem; */
+}
+.second-row{
+    background-color: #183c86;
+}
+.third-row{
+    background-color: #2f78c4;
+}
+.bdr{
+    border-right: 1px solid white;
+}
+
+
+/* Engineering excellence section */
+.wrapper3{
+    background: radial-gradient(at 95% 7%,#45bcc9 0,rgba(69,188,201,.001) 60%),radial-gradient(at 95% 93%,#fae500 0,rgba(250,229,0,.001) 60%),radial-gradient(at 6% 6%,#0060fa 15%,rgba(0,96,250,.001) 80%),radial-gradient(at 6% 94%,#fff 0,hsla(0,0%,100%,.001) 60%);
+    color: #fff;
+}
+.wrapper3-heading{
+    padding-top: 3.6rem;
+    padding-bottom: 3rem;
+}
+.heading-ee{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.card{
+    height: 42rem;
+}
+.card-body{
+    color: #000048;
+}
+.card-title{
+    color: #2f78c4;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.card-text{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.card-link{
+    color: #26efe9;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.card-link:hover{
+    color: #000048;
+}
+.wrapper3-content{
+    padding-bottom: 3.5rem;
+}
+
+
+/* last fragment part */
+.fragment4{
+    background-color: #000048;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.f4-content{
+    padding: 4rem;
+}
+.f4-content h6{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.f4-link{
+    color: #26efe9;
+}
+.f4-link:hover{
+    color: #e8eeee;
+}
