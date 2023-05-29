@@ -668,6 +668,125 @@
   </div>
 
 
+   <!-- The Form Section -->
+  <div class="qna container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-heading">
+            <h3>Get answers to your questions</h3>
+            <p>Our clients turn to us to help them reimagine ways of working with technology.</p>
+          </div>
+        </div>
+      </div>
+
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <input class="" type="text" name="FirstName" id="name" placeholder="John Smith"
+              data-validation-type="alphabetic" required>
+            <label for="name">Name*</label>
+          </div>
+
+          <div class="col-md-6">
+            <input type="email" name="Email" id="email" placeholder="johnsmith@example.com" data-validation-type="email"
+              required>
+            <label for="email">Email*</label>
+          </div>
+
+          <div class="col-md-6">
+            <input type="text" name="Organization" id="organization" placeholder="Abc Company"
+              data-validation-type="alphabetic" required>
+            <label for="organization">Organization*</label>
+          </div>
+
+          <div class="col-md-6">
+            <input type="tel" name="Contact" id="contact" placeholder="1 800 123 4567" data-validation-type="numeric"
+              required>
+            <label for="contact">Contact Number*</label>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group drop-down">
+              <label for="region">Region</label>
+            </div>
+            <select name="Region" id="region" required>
+              <option value selected disabled>Region*</option>
+              <option value="North America">North America</option>
+              <option value="South America">South America</option>
+              <option value="Europe">Europe</option>
+              <option value="Middle East">Middle East</option>
+              <option value="APAC">APAC</option>
+              <option value="India">India</option>
+
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group drop-down">
+              <label for="inquiry">Inquiry Type</label>
+            </div>
+            <select name="InquiryType" id="inquiry" required>
+              <option value selected disabled>Inquiry Type*</option>
+              <option value="Alumni">Alumni</option>
+              <option value="Career Seekers">Career Seekers </option>
+              <option value="Investor Relations">Investor Relations
+              </option>
+              <option value="Media">Media
+              </option>
+              <option value="Alliances">Partners
+              </option>
+              <option value="Request for Services">Request for Services
+              </option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group drop-down">
+              <label for="subinquiry">Sub Inquiry Type</label>
+            </div>
+            <select name="SubInquiry" id="subinquiry" required>
+              <option value selected disabled>Sub Inquiry Type*</option>
+              <option value="Alumni Jobseeker">Cognizant Alumni Job Seeker
+              </option>
+              <option value="Fresher Jobseeker">Entry-Level Job Seeker
+              </option>
+              <option value="Experienced Job Seeker">Experienced Job Seeker
+              </option>
+              <option value="Ex-Employee Verification">Former Employee Verification
+              </option>
+              <option value="Interview Status">Interview Status
+              </option>
+              <option value="Login Issues">Login Issues
+              </option>
+              <option value="Offered Candidates">Offered Candidates
+              </option>
+              <option value="Other">Other
+              </option>
+            </select>
+          </div>
+
+          <div class="col-md-12">
+            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+            <label for="message">Message</label>
+          </div>
+
+          <div class="col-12">
+            <button class="btn" type="submit" name="submit-button" value="submit">Submit</button>
+          </div>
+      </form>
+
+
+      <div class="form-disclaimer row">
+        <div class="col-12">
+          <p>
+            This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of
+              Service</a> apply.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
