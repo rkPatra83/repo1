@@ -62,6 +62,69 @@ li {
 }
 
 /* carousel part */
+.slide-content {
+    color: #fff;
+    width: 100vw;
+    height: 31rem;
+    transition-duration: 0ms; 
+    transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.slide-content h2 {
+    font-size: 4rem;
+    padding-left: 4rem;
+}
+
+.slide-content p {
+    font-size: 1.4rem;
+    padding-left: 4rem;
+}
+
+.c-content-btn {
+    background-color: #26efe9;
+    border: none;
+    border-radius: 500em;
+    color: #000048;
+    margin: 0 0.5rem 1rem 4rem;
+    padding: 0.75em 1.25em;
+    font-weight: 700;
+}
+
+.slide-1 {
+    background: url(Images/slide1.jpg) no-repeat;
+}
+
+.slide-2 {
+    background: url(Images/slide2.webp);
+}
+
+.slide-3 {
+    background: url(Images/slide3.jpg);
+}
+
+.slide-4 {
+    background: url(Images/slide4.webp);
+}
+
+
+.carousel-buttons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin-left: 6%;
+}
+
+.carousel-buttons [data-bs-target] {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: #fff;
+    margin: 2rem;
+    padding-bottom: 1.2rem;
+    font-weight: bold;
+}
 
 
 /* fragament parts */
