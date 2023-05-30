@@ -668,7 +668,7 @@
   </div>
 
 
-   <!-- The Form Section -->
+    <!-- The Form Section -->
   <div class="qna container-fluid">
     <div class="container">
       <div class="row">
@@ -682,47 +682,49 @@
 
       <form>
         <div class="row">
-          <div class="col-md-6">
-            <input class="" type="text" name="FirstName" id="name" placeholder="John Smith"
-              data-validation-type="alphabetic" required>
+          <div class="col-md-6 f-section">
             <label for="name">Name*</label>
+            <input type="text" name="FirstName" id="name" placeholder="John Smith"
+              data-validation-type="alphabetic" required>  
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 f-section">
+            <label for="email">Email*</label>
             <input type="email" name="Email" id="email" placeholder="johnsmith@example.com" data-validation-type="email"
               required>
-            <label for="email">Email*</label>
           </div>
 
-          <div class="col-md-6">
-            <input type="text" name="Organization" id="organization" placeholder="Abc Company"
-              data-validation-type="alphabetic" required>
+          <div class="col-md-6 f-section">
             <label for="organization">Organization*</label>
+            <input type="text" name="Organization" id="organization" placeholder="Abc Company"
+              data-validation-type="alphabetic" required>          
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 f-section">
+            <label for="contact">Contact Number*</label>
             <input type="tel" name="Contact" id="contact" placeholder="1 800 123 4567" data-validation-type="numeric"
               required>
-            <label for="contact">Contact Number*</label>
           </div>
 
-          <div class="col-md-6">
-            <div class="form-group drop-down">
-              <label for="region">Region</label>
-            </div>
-            <select name="Region" id="region" required>
-              <option value selected disabled>Region*</option>
-              <option value="North America">North America</option>
-              <option value="South America">South America</option>
-              <option value="Europe">Europe</option>
-              <option value="Middle East">Middle East</option>
-              <option value="APAC">APAC</option>
-              <option value="India">India</option>
-
-            </select>
+          <div class="col-md-6 f-section">
+            <fieldset>
+              <div class="form-group drop-down">
+                <label for="region">Region</label>
+              </div>
+              <select name="Region" id="region" required>
+                <option value selected disabled>Region*</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Europe">Europe</option>
+                <option value="Middle East">Middle East</option>
+                <option value="APAC">APAC</option>
+                <option value="India">India</option>
+  
+              </select>
+            </fieldset>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 f-section">
             <div class="form-group drop-down">
               <label for="inquiry">Inquiry Type</label>
             </div>
@@ -767,8 +769,8 @@
           </div>
 
           <div class="col-md-12">
-            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
             <label for="message">Message</label>
+            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
           </div>
 
           <div class="col-12">
@@ -780,13 +782,565 @@
       <div class="form-disclaimer row">
         <div class="col-12">
           <p>
-            This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of
+            This site is protected by reCAPTCHA and the Google <a class="text-link3" href="#">Privacy Policy</a> and <a class="text-link3" href="#">Terms of
               Service</a> apply.
           </p>
         </div>
       </div>
     </div>
   </div>
+
+
+  <!-- The Footer Part -->
+
+  <footer>
+    <div class="container-fluid" style="background-color: #e8e8e6;">
+      <div class="container">
+        <div class="row">
+          <div class="logos col-12 col-md-auto mb-half mb-md-0">
+            <li><img src="Images/linkedIn logo.jpg" alt=""></li>
+            <li><img src="Images/twitter.jpg" alt=""></li>
+            <li><img src="Images/fb.png" alt=""></li>
+            <li><img src="Images/ig.png" alt=""></li>
+            <li><img src="Images/yt.png" alt=""></li>
+          </div>
+          <div class="col-12 col-md-7">
+            <ul class="nav flex-column flex-md-row justify-content-md-end align-items-md-center m-0 small">
+              <li class="nav-item pe-3"><a class="text-link4" href="#">Sitemap</a></li>
+              <li class="nav-item pe-3"><a class="text-link4" href="#">Terms</a></li>
+              <li class="nav-item pe-3"><a class="text-link4" href="#">Privacy Notice</a></li>
+              <li class="nav-item pe-3"><a class="text-link4" href="#">Cookie Notice</a></li>
+              <li class="align-self-lg-center nav-item pe-1"><p class="m-0"><span style="color: #000048; font-size: 0.9rem;">©2023 Cognizant, all rights reserved</span></p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-site-map">
+      <div class="row pt-1">
+        <!-- Left Footer Starts -->
+        <div class="col-12 col-md-9 col">
+                <div class="row">
+                    <div class="col">
+                        <h6>
+                            Industries</h6>
+                    </div>
+                </div>
+                <!-- Columns starts -->
+                
+                    <div class="row row-cols-1 row-cols-md-3 mb-lg-0 mb-1">
+                        <!--Left Column Starts -->
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                    <li>
+                                        <a class="text-link4" href="#">Automotive
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Banking
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Capital Markets
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Communications, Media &amp; Technology
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Consumer Goods
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Education
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Healthcare
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Information Services
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Insurance
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Life Sciences
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Manufacturing
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Oil &amp; Gas
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Retail
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Transportation &amp; Logistics
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Travel &amp; Hospitality
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Utilities
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <!--Left Column ends -->
+                    </div>
+                
+            
+                <div class="row">
+                    <div class="col">
+                        
+                        <h6>
+                            Services</h6>
+                    </div>
+                </div>
+                <!-- Columns starts -->
+                
+                    <div class="row row-cols-1 row-cols-md-3 mb-lg-0 mb-1">
+                        <!--Left Column Starts -->
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Application Services &amp; Modernization
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Artificial Intelligence
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Business Process Services
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Cloud Solutions
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Core Modernization
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Digital Experience
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Digital Strategy
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Enterprise Application Services
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Infrastructure Services
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Intelligent Process Automation
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Internet of Things
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Quality Engineering &amp; Assurance
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Security
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Software Product Engineering
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Sustainability Services
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <!--Left Column ends -->
+                    </div>
+                
+            
+                <div class="row">
+                    <div class="col">
+                        <h6>
+                                Consulting
+                        </h6>
+                        
+                    </div>
+                </div>
+                <!-- Columns starts -->
+                
+            
+                <div class="row">
+                    <div class="col">
+                        
+                        <h6>
+                            Insights</h6>
+                    </div>
+                </div>
+                <!-- Columns starts -->
+                
+                    <div class="row row-cols-1 row-cols-md-3 mb-lg-0 mb-1">
+                        <!--Left Column Starts -->
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                <li>
+                                    <span class="fw-bold">Themes</span>
+                                </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Modern Business
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Sustainability and Resilience
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Tech to Watch
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                <li>
+                                    <span class="fw-bold">Research</span>
+                                </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Deep Green
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            The Future of Us
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            The Future-Ready Business Benchmark
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            The Green Rush
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            The Metaverse
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            The Work Ahead
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <ul class="list-unstyled small mb-0 mb-md-1">
+                                <li>
+                                    <span class="fw-bold">Explore</span>
+                                </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Blog
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Case Studies
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Insights
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Podcasts
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <!--Left Column ends -->
+                    </div>
+                
+            
+        </div>
+        <!-- Left Footer ends -->
+        <!-- Right Footer starts -->
+
+        <div class="col-12 col-md-3 col">
+            
+                
+                    <h6>
+                            About Cognizant
+                    </h6>
+                    
+                
+
+                
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <ul class="list-unstyled small">
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Annual Report
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Be.Cognizant
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Board of Directors
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Client Briefing Program
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Corporate Governance
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Culture &amp; Values
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" ref="#" >
+                                            Diversity &amp; Inclusion
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            ESG
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Leadership Team
+                                        </a>
+                                    </li>
+                                
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            News &amp; Press Releases
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Partnerships
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Public Policy
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#">
+                                            Sponsorships
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a class="text-link4" href="#" >
+                                            Talent Worldwide
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                
+            
+                
+                    <h6>
+                            Glossary
+                    </h6>
+                    
+                
+             
+                    <h6>
+                            Information for Suppliers
+                    </h6>
+                    
+   
+            
+        </div>
+        <!-- Right Footer ends -->
+    </div>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
