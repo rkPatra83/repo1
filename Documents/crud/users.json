@@ -1,0 +1,86 @@
+[
+  {
+    "eno": 123456,
+    "name": "John",
+    "skills": "Angular",
+    "img": "male.jpg",
+    "project": "CTS Internal",
+    "HCM": "Alex"
+  },
+  {
+    "eno": 2234678,
+    "name": "Ramkrishna",
+    "skills": "React",
+    "img": "male.jpg",
+    "project": "CTS Internal",
+    "HCM": "Alex"
+  },
+
+  {
+    "eno": 2283455,
+    "name": "Rahul",
+    "skills": "Java",
+    "project": "CTS Internal",
+    "img": "male.jpg",
+    "HCM": "Alex"
+  },
+  {
+    "eno": 22876645,
+    "name": "Shraddha",
+    "skills": "Angular",
+    "project": "CTS Internal",
+    "img": "female.jpg",
+    "HCM": "Alex"
+  },
+  {
+    "eno": 2282456,
+    "name": "Sayon",
+    "skills": "Spring",
+    "img": "male.jpg",
+    "project": "CTS Internal",
+    "HCM": "ALex"
+  },
+
+  {
+    "eno": 2287365,
+    "name": "Sikha",
+    "skills": "Bootstrap",
+    "img": "female.jpg",
+    "project": "CTS Internal ",
+    "HCM": "Alex"
+  },
+
+  {
+    "eno": 22825679,
+    "name": "Nihar",
+    "skills": "MongoDB",
+    "img": "male.jpg",
+    "project": "CTS Internal",
+    "HCM": "Alex"
+  },
+
+  {
+    "eno": 229866,
+    "name": "Riya",
+    "img": "female.jpg",
+    "skills": "Cloud",
+    "project": "CTS Internal",
+    "HCM": "Alex"
+  },
+  {
+    "eno": 2276895,
+    "name": "Sushmita",
+    "skills": "Selenium",
+    "project": "CTS Internal ",
+    "img": "female.jpg",
+   " HCM": "Alex"
+  },
+  {
+    "eno": 2278657,
+    "name": "Sahil",
+    "skills": "Angular",
+    "img": "male.jpg",
+    "project": "CTS Internal",
+    "HCM": "ALex"
+  }
+]
